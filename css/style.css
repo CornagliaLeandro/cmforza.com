@@ -1,0 +1,342 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.centrado{
+    text-align: center;
+}
+body{
+    background: black;
+    border: solid grey 1px;
+    font-family:  'Antonio', sans-serif;;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+nav{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer{
+    width: 100%;
+    min-height: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+}
+h1{
+    font-size: 150px;
+    color: white;
+    
+}
+
+.container{
+    background:black;
+    width: 100%;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row{
+    width: 100%;
+    margin: auto; 
+    display: flex;
+}
+
+
+.texto{
+    font-size: 30px;
+    color: white;
+}
+.imagen{
+    width: 70px;
+
+}
+.dos{
+    background: white;
+    min-height:  80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apic{
+    margin: 10px;
+}
+
+.col-md-6{
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    color: blanchedalmond;
+    font-size: 80px;
+}
+
+.papote{
+    height:  auto;
+}
+
+
+.btn{
+    background: black;
+    border: none;
+    margin: 10px;
+}
+
+
+.dropdown-menu{
+    background: black;
+}
+.dropdown-item{
+    color: white;
+}
+
+.uno{
+    display: flex;
+    justify-content: center;
+}
+.row-uno{
+    display: flex;
+    justify-content:space-evenly;
+    margin-right: 10px;
+}
+
+.li-uno{
+    display: flex;
+    text-decoration: none;
+    margin-right: 8px;
+    font-size: 25px;
+    color: rgb(243, 199, 118);
+}
+.ul-uno{
+    display: flex;
+    list-style: none;
+    padding-right: 19px;
+}
+
+.logo{
+    display: flex;
+    justify-content:start;
+    width: 50px;
+    margin: 5px;
+}
+.papote{
+    height: auto;
+}
+.secundario{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.parrafo{
+    font-size: 20px;
+    color: white;
+}
+.tituloNosotros{
+    font-size: 30px;
+    color: white;
+}
+
+.rombo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+.imgRombo{
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.tituloContacto{
+    font-size: 60px;
+    color: white;
+}
+
+
+.pContacto{
+    font-size: 40px;
+    color: white;
+    text-align:center;
+}
+
+.imgContacto{
+    width: 50px;
+}
+
+.divContacto{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 1200px){
+    .pContacto{
+        font-size: 26px;
+        color: white;
+    }
+    
+    .imgContacto{
+        width: 23px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    h1{
+        font-size: 120px;
+    }
+    body{
+        background: black;
+    }
+    .imagen{
+        width: 50px;
+    }
+    .texto{
+        font-size: 24px;
+    }
+    .ul-uno{
+        font-size: 60px;
+    }
+    .li-uno{
+        font-size: 18px;
+    }
+
+    .parrafo{
+        font-size: 17px;
+        color: white;
+    }
+
+    .tituloNosotros{
+        font-size: 17px;
+        color: white;
+    }
+
+    .imgRombo{
+        width: 50px;
+        height: 50px;
+    }
+
+    .pContacto{
+        font-size: 25px;
+        color: white;
+    }
+    
+    .imgContacto{
+        width: 20px;
+    }
+    
+
+}
+
+@media only screen and (max-width:600px){
+    h1{
+        font-size: 90px;
+    }
+    .imagen{
+        width: 40px;
+    }
+    .texto{
+        font-size: 18px;
+    }
+    .li-uno{
+        font-size: 17px;
+    }
+
+    .parrafo{
+        font-size: 16px;
+        color: white;
+    }
+
+    .tituloNosotros{
+        font-size: 18;
+        color: white;
+    }
+
+    .imgRombo{
+        width: 40px;
+        height: 40px;
+    }
+
+    .pContacto{
+        font-size: 23px;
+        color: white;
+    }
+    
+    .imgContacto{
+        width: 18px;
+    }
+    
+}
+
+@media only screen and (max-width:400px){
+    h1{
+        font-size: 80px;
+    }
+    .imagen{
+        width: 40px;
+    }
+    .texto{
+        font-size: 17px; 
+    }
+    .li-uno{
+        font-size: 15px;
+    }
+
+    .parrafo{
+        font-size: 14px;
+        color: white;
+    }
+
+    .tituloNosotros{
+        font-size: 17;
+        color: white;
+    }
+
+    .imgRombo{
+        width: 30px;
+        height: 30px;
+    }
+    
+
+    .pContacto{
+        font-size: 20px;
+        color: white;
+    }
+    
+    .imgContacto{
+        width: 15px;
+    }
+}
+
